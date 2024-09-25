@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+       /* //var keyword 
+        console.log(a);      //it doesn't show any error even we access it before assigning 
+        var a;  //variable declaration by using VAR
+        var a=5; //initialization by using VAR
+        console.log(a);
+        a=15;
+        console.log(a)
+        // LET KEYWORD
+        //console.log(b)  we cant accesss a variable before initializing it in case of let
+        let b=10;
+        console.log(b);
+        b=8;
+        console.log(b);
+        //CONST KEYWORD
+        //console.log(c)  we cant accesss a variable before initializing it in case of CONST
+        const c=20;
+        console.log(c);
+       // c=30;  can't re initialize the value
+        console.log(c) */
+        // we can access the variable inside and outside the block if declare the variable with VAR KEYWORD
+        console.log(b)
+        var a=5;
+        {
+            console.log(a);
+            var b=20;
+        }
+        console.log(b);
+        let c=30;
+        {
+            console.log(c);
+            let d=40;
+
+        }
+        //console.log(d); we cant access the variable declared with LET KEYWORD outside the block
+        const e=50;
+        {
+            console.log(e)
+            const f=60;
+
+        }
+        //console.log(f) we cant access the variable declared with CONST KEYWORD outside the block
+
+        
+
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
